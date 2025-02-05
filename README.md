@@ -5,7 +5,7 @@ Se añaden librerias con el fin de poder realizar de manera más sencilla cálcu
 
 ![image](https://github.com/user-attachments/assets/3f1330c3-ec44-40e0-bd02-b84bbfb3351e)
 
-blablablablablabla
+Se define una función con el nombre descargar_senal_desde_archivo que permite cargar un archivo con señales fisiológicas (datos), extraer el primer canal de la señal y devolver tanto la señal como la estructura completa del registro. Es útil cuando se trabaja con bases de datos biomédicas como ECG, ya que simplifica la extracción de información para su análisis posterior.
 
 ![image](https://github.com/user-attachments/assets/48347ca2-b573-47c0-b1fd-9dc1cf113237)
 
