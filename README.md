@@ -6,6 +6,8 @@ ________________________________________________________________________________
 
 ![image](https://github.com/user-attachments/assets/3f1330c3-ec44-40e0-bd02-b84bbfb3351e)
 
+Los datos de la señal fisiologica fueron obtenidos de Base de datos de ECG-ID: Registros de ECG de 90 voluntarios.
+
 Utilizando la función wfdb.rdrecord(datos). Lo que hace es abrir el archivo especificado por el nombre que se le pasa como argumento (datos) y devuelve un objeto llamado record. Dentro de este objeto, record.p_signal contiene los datos de la señal; al poner [:, 0], estamos seleccionando solo el primer canal de la señal, con esto nos retorna la señal (senal) y el objeto (record), los cuales traen la información para poder usarse.
 ___________________________________________________________________________________________________________________________
 
