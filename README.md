@@ -16,7 +16,7 @@ ________________________________________________________________________________
 
 ![image](https://github.com/user-attachments/assets/8d61e777-8ece-400e-9d36-c3e420274c4f)
 
-Primero, se obtiene la media sumando todos los valores de la señal '(np.sum(senal))' y dividiéndolos por el número total de muestras '(len(senal))'. Luego, para la desviación estándar, se calcula cuánto se desvían los valores individuales de la media: se resta la media de cada valor, se eleva al cuadrado, se promedia y finalmente se saca la raíz cuadrada para obtener la medida de dispersión. Por último, el coeficiente de variación nos muestra qué tan grande es la desviación en relación con la media.
+Primero, se obtiene la media sumando todos los valores de la señal '(np.sum(senal))' y dividiéndolos por el número total de muestras '(len(senal))'. Luego, para la desviación estándar, se calcula cuánto se desvían los valores individuales de la media: se resta la media de cada valor, se eleva al cuadrado, se promedia y finalmente se saca la raíz cuadrada para obtener la medida de dispersión. Por último, el coeficiente de variación nos muestra qué tan grande es la desviación en relación con la media. Todo esto hecho en base a las ecuaciones propuestas para cada estadistico.
 ___________________________________________________________________________________________________________________________
 
 ![image](https://github.com/user-attachments/assets/e3aeca58-7603-401e-aa71-ebb33ecb4864)
