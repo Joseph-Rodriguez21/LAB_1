@@ -54,7 +54,7 @@ ________________________________________________________________________________
 
 ![image](https://github.com/user-attachments/assets/812736fe-152b-43be-b89b-b4d6b22e0f61)
 
-Se utiliza una biblioteca la cual permite manejar los datos obtenidos de cada grafica para manejarse en forma de tabla en donde se almacenan los datos de: Media manual, Desviación manual, Coeficiente de Variación Manual estos realizados con sus respectivas ecuaciones en comparación con los datos calculados de las misma por las funciones predeterminadas de la biblioteca NumPy quedando guardadas en un archivo CSV en el cual se mostrarían estos archivos 
+Se utiliza una biblioteca la cual permite manejar los datos obtenidos de cada grafica para manejarse en forma de tabla en donde se almacenan los datos de: Media manual, Desviación manual, Coeficiente de Variación Manual y SNR estos realizados con sus respectivas ecuaciones en comparación con los datos calculados de las misma por las funciones predeterminadas de la biblioteca NumPy quedando guardadas en un archivo CSV en el cual se mostrarían estos datos.
 ___________________________________________________________________________________________________________________________
 A continuación adjuntamos las diferentes gráficas correspondientes:
 ___________________________________________________________________________________________________________________________
