@@ -57,6 +57,7 @@ A continuación adjuntamos las diferentes gráficas correspondientes:
 
 
 Y por último un ejemplo de los datos resultantes al compilar el código en un rango de los primeros 2000 datos:
+___________________________________________________________________________________________________________________________
 
 Media: -0.024002000000000002 (manual) vs -0.024002000000000002 (numpy)
 
@@ -71,3 +72,5 @@ SNR con ruido impulso: -3.5950777316690354 dB
 SNR con ruido artefacto: 23.157751096132063 dB
 
 Resultados guardados en 'resultados_laboratorio.csv'.
+
+_____________________________________________________________________________________________________________________________
