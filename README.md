@@ -24,7 +24,8 @@ Se ingresan los datos numéricos que representa la señal fisiológica, para cal
 blablablablablablablablabla
 
 ![image](https://github.com/user-attachments/assets/5a10f00b-6482-48e8-ba35-89eae386f996)
-blablablablablablablabla
+El SNR mide qué tan fuerte es la señal en comparación con el ruido.
+Por lo cual se calcula la potencia de la señal (energía total de la señal) y la potencia del ruido, siendo estos la media de los valores al cuadrado '(np.mean(senal**2))','(np.mean(ruido**2))'. Luego, aplicamos la fórmula '10 * np.log10(potencia_senal / potencia_ruido)', que convierte esta relación en decibeles (dB) para medir la calidad de la señal.
 
 ![image](https://github.com/user-attachments/assets/95a662cc-6067-4450-a5c2-bf1a6c8802ac)
 blablablablablabla
