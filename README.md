@@ -40,7 +40,10 @@ Se le agrega el ruido a la señal de diferentes tipos como son Ruido gaussiano, 
 ___________________________________________________________________________________________________________________________
 
 ![image](https://github.com/user-attachments/assets/654df77f-6517-4641-bcc2-1501dbdc783d)
-blablablablablablablablabla
+
+Se define (nombre_base = "rec_1"), que es el nombre del archivo que contiene la señal fisiológica. Luego, se llama a la función 'descargar_senal_desde_archivo(nombre_base)', que obtiene la señal (senal) y la información del archivo (record). Finalmente, 'graficar_senal(senal)' dibuja la señal original para visualizarla antes de agregar ruido.
+Luego se hallan los valores estadisticos de la señal de ambas formas (manual y NumPy), por medio de 'estadisticos_manual(senal)' y 'estadisticos_numpy(senal)', así podemos comparar ambos métodos y verificar la consistencia de los valores de ambas maneras.
+Por último se imprimen los valores obtenidos para analizar y comprobar si son similares o coinciden, lo cual significa que se realizaron de manera correcta (por ejemplo al final de la página se observa como estos datos son similares al compilar el codigo)
 ___________________________________________________________________________________________________________________________
 ![image](https://github.com/user-attachments/assets/fef9fa80-d53a-4580-b02c-089b3913f4b7)
 
