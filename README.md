@@ -22,7 +22,8 @@ Se ingresan los datos numéricos que representa la señal fisiológica, para cal
 
 
 ![image](https://github.com/user-attachments/assets/94dded00-71dc-4035-b789-73eeb26d1b14)
-blablablablablablablablabla
+
+Se utiliza una función mas precisa para la PDF (probabilidad de función)  para la grafica del histograma con la cual se calcula la media y desviación de la señal con una variable alta para que su tiempo de muestreo sea mas preciso   
 
 ![image](https://github.com/user-attachments/assets/5a10f00b-6482-48e8-ba35-89eae386f996) 
 
