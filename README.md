@@ -12,7 +12,7 @@ Se define una función con el nombre descargar_senal_desde_archivo que permite c
 Se define una función que recibe varios parámetros como el 'inicio' desde donde se comenzará a graficar la señal hasta la 'duración' de estos puntos, con esto podemos analizar diferentes segmentos de la señal y modificarlo a nuestro interés. De igual manera se nombran ejes, cuadricula y colores. Esta misma es utilizada para graficar las demás señales contaminadas lo cual facilita su comparación.
 
 ![image](https://github.com/user-attachments/assets/8d61e777-8ece-400e-9d36-c3e420274c4f)
-blablablablablabla
+Primero, se obtiene la media sumando todos los valores de la señal '(np.sum(senal))' y dividiéndolos por el número total de muestras '(len(senal))'. Luego, para la desviación estándar, se calcula cuánto se desvían los valores individuales de la media: se resta la media de cada valor, se eleva al cuadrado, se promedia y finalmente se saca la raíz cuadrada para obtener la medida de dispersión. Por último, el coeficiente de variación nos muestra qué tan grande es la desviación en relación con la media.
 
 ![image](https://github.com/user-attachments/assets/e3aeca58-7603-401e-aa71-ebb33ecb4864)
 
