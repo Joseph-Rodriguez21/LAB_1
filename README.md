@@ -8,6 +8,7 @@ Se añaden librerias con el fin de poder realizar de manera más sencilla cálcu
 blablablablablabla
 
 ![image](https://github.com/user-attachments/assets/48347ca2-b573-47c0-b1fd-9dc1cf113237)
+
  Se define una función que recibe varios parámetros como el inicio desde donde se comenzará a graficar la señal, cuántos puntos los cuales son las muestras de la señal que se mostrarán en la gráfica.
 donde al eje 'X' y 'Y' se nombran respecto a la grafica
 
