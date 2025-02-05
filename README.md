@@ -8,13 +8,31 @@ Se añaden librerias con el fin de poder realizar de manera más sencilla cálcu
 blablablablablabla
 
 ![image](https://github.com/user-attachments/assets/48347ca2-b573-47c0-b1fd-9dc1cf113237)
+blablablablabla
 
+![image](https://github.com/user-attachments/assets/8d61e777-8ece-400e-9d36-c3e420274c4f)
+blablablablablabla
 
+![image](https://github.com/user-attachments/assets/e3aeca58-7603-401e-aa71-ebb33ecb4864)
+blablalblablablablabla
 
+![image](https://github.com/user-attachments/assets/94dded00-71dc-4035-b789-73eeb26d1b14)
+blablablablablablablablabla
 
+![image](https://github.com/user-attachments/assets/5a10f00b-6482-48e8-ba35-89eae386f996)
+blablablablablablablabla
 
+![image](https://github.com/user-attachments/assets/95a662cc-6067-4450-a5c2-bf1a6c8802ac)
+blablablablablabla
 
+![image](https://github.com/user-attachments/assets/654df77f-6517-4641-bcc2-1501dbdc783d)
+blablablablablablablablabla
 
+![image](https://github.com/user-attachments/assets/ec944df2-16d0-4864-8964-2a3fa1e5d93f)
+blablablablablablablablablabla
+
+![image](https://github.com/user-attachments/assets/812736fe-152b-43be-b89b-b4d6b22e0f61)
+blablablabla
 
 ![image](https://github.com/user-attachments/assets/db7da50a-777f-4bba-8adf-99808f6f25ae)
 ![image](https://github.com/user-attachments/assets/fd143544-41c7-4997-a5bc-2cc71cafb474)
