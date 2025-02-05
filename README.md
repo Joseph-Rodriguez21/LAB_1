@@ -9,8 +9,7 @@ blablablablablabla
 
 ![image](https://github.com/user-attachments/assets/48347ca2-b573-47c0-b1fd-9dc1cf113237)
 
- Se define una función que recibe varios parámetros como el inicio desde donde se comenzará a graficar la señal, cuántos puntos los cuales son las muestras de la señal que se mostrarán en la gráfica
-Donde al eje 'X' y 'Y' se nombran respecto a la grafica
+Se define una función que recibe varios parámetros como el 'inicio' desde donde se comenzará a graficar la señal hasta la 'duración' de estos puntos, con esto podemos analizar diferentes segmentos de la señal y modificarlo a nuestro interés. De igual manera se nombran ejes, cuadricula y colores. Esta misma es utilizada para graficar las demás señales contaminadas lo cual facilita su comparación.
 
 ![image](https://github.com/user-attachments/assets/8d61e777-8ece-400e-9d36-c3e420274c4f)
 blablablablablabla
