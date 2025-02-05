@@ -43,7 +43,7 @@ ________________________________________________________________________________
 
 Se define (nombre_base = "rec_1"), que es el nombre del archivo que contiene la señal fisiológica. Luego, se llama a la función 'descargar_senal_desde_archivo(nombre_base)', que obtiene la señal (senal) y la información del archivo (record). Finalmente, 'graficar_senal(senal)' dibuja la señal original para visualizarla antes de agregar ruido.
 
-Luego se hallan los valores estadisticos de la señal de ambas formas (manual y NumPy), por medio de 'estadisticos_manual(senal)' y 'estadisticos_numpy(senal)', así podemos comparar ambos métodos y verificar la consistencia de los valores de ambas maneras.
+Luego se hallan los valores estadisticos de la señal de ambas formas (manual y NumPy), por medio de 'estadisticos_manual(senal)' y 'estadisticos_numpy(senal)', así podemos comparar ambos métodos y verificar los resultados.
 
 Por último se imprimen los valores obtenidos para analizar y comprobar si son similares o coinciden, lo cual significa que se realizaron de manera correcta (por ejemplo al final de la página se observa como estos datos son similares al compilar el codigo)
 ___________________________________________________________________________________________________________________________
