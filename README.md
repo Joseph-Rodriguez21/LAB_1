@@ -1,3 +1,8 @@
+![image](https://github.com/user-attachments/assets/3692c3df-6773-4bbc-9a50-68b83709b051)
+
+Se añaden librerias con el fin de poder realizar de manera más sencilla cálculos matemáticos, también para graficar señales, procesarlas y se utiliza una libreria aparte 'wfdb', la cual nos ayuda a leer los archivos de la señal fisiologica descargada previamente en physionet, por úlimo la libreria 'pandas' para manejar datos en formato tabla y guardarlos en archivo CSV.
+
+
 
 ![image](https://github.com/user-attachments/assets/db7da50a-777f-4bba-8adf-99808f6f25ae)
 ![image](https://github.com/user-attachments/assets/42318341-6e23-49c5-989e-3b8bed7a910c)
