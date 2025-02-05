@@ -42,7 +42,9 @@ ________________________________________________________________________________
 ![image](https://github.com/user-attachments/assets/654df77f-6517-4641-bcc2-1501dbdc783d)
 
 Se define (nombre_base = "rec_1"), que es el nombre del archivo que contiene la señal fisiológica. Luego, se llama a la función 'descargar_senal_desde_archivo(nombre_base)', que obtiene la señal (senal) y la información del archivo (record). Finalmente, 'graficar_senal(senal)' dibuja la señal original para visualizarla antes de agregar ruido.
+
 Luego se hallan los valores estadisticos de la señal de ambas formas (manual y NumPy), por medio de 'estadisticos_manual(senal)' y 'estadisticos_numpy(senal)', así podemos comparar ambos métodos y verificar la consistencia de los valores de ambas maneras.
+
 Por último se imprimen los valores obtenidos para analizar y comprobar si son similares o coinciden, lo cual significa que se realizaron de manera correcta (por ejemplo al final de la página se observa como estos datos son similares al compilar el codigo)
 ___________________________________________________________________________________________________________________________
 ![image](https://github.com/user-attachments/assets/fef9fa80-d53a-4580-b02c-089b3913f4b7)
@@ -70,18 +72,6 @@ ________________________________________________________________________________
 Y por último un ejemplo de los datos resultantes al compilar el código en un rango de los primeros 2000 datos:
 ___________________________________________________________________________________________________________________________
 
-Media: -0.024002000000000002 (manual) vs -0.024002000000000002 (numpy)
-
-Desviación estándar: 0.12935114609465198 (manual) vs 0.12935114609465198 (numpy)
-
-Coef. Variación: -5.3891819887781 (manual) vs -5.3891819887781 (numpy)
-
-SNR con ruido gaussiano: 20.104351664394343 dB
-
-SNR con ruido impulso: -3.5950777316690354 dB
-
-SNR con ruido artefacto: 23.157751096132063 dB
-
-Resultados guardados en 'resultados_laboratorio.csv'.
+![image](https://github.com/user-attachments/assets/91812ccd-6b21-4d31-a345-3971b775f7e1)
 
 _____________________________________________________________________________________________________________________________
