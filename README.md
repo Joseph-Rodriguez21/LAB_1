@@ -31,7 +31,8 @@ Se utiliza una función mas precisa para la PDF (probabilidad de función)  para
 El SNR mide qué tan fuerte es la señal en comparación con el ruido. Por lo cual se calcula la potencia de la señal (energía total de la señal) y la potencia del ruido, siendo estos la media de los valores al cuadrado '(np.mean(senal**2))','(np.mean(ruido**2))'. Luego, aplicamos la fórmula '10 * np.log10(potencia_senal / potencia_ruido)', que convierte esta relación en decibeles (dB) para medir la calidad de la señal. De acuerdo a su valor se puede deducir que tan clara o fuerte es la señal correspondiente.
 
 ![image](https://github.com/user-attachments/assets/95a662cc-6067-4450-a5c2-bf1a6c8802ac)
-blablablablablabla
+
+Se le agrega el ruido a la señal de diferentes tipos como son Ruido gaussiano, ruido de impulso y ruido de artefacto especificando que señal, intensidad y que tipo de ruido se le quiere agregar a un porcentaje especifico de los puntos en la grafica en valores positivos y negativos para luego mostrar la señal ya contaminada y el valor de SNR ( relación señal a ruido)
 
 ![image](https://github.com/user-attachments/assets/654df77f-6517-4641-bcc2-1501dbdc783d)
 blablablablablablablablabla
