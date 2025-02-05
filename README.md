@@ -35,8 +35,9 @@ blablablablablabla
 ![image](https://github.com/user-attachments/assets/654df77f-6517-4641-bcc2-1501dbdc783d)
 blablablablablablablablabla
 
-![image](https://github.com/user-attachments/assets/ec944df2-16d0-4864-8964-2a3fa1e5d93f)
-blablablablablablablablablabla
+![image](https://github.com/user-attachments/assets/fef9fa80-d53a-4580-b02c-089b3913f4b7)
+
+En este apartado primero definimos 'colores', para asignarle un color diferente a cada tipo de ruido. El (for) recorre los tres tipos de ruido y los agrega a la señal usando contaminar_con_ruido(senal, tipo). Luego la nueva señal ruidosa se grafica llamando a la función ya antes definida de 'graficar_senal(...)' (recordando que usamos la misma función para poder compararlas y acortar codigo) en la cual tambien podemos seleccionar que tamaño de datos queremos para su analisís, y se imprime el valor de SNR en decibeles.
 
 ![image](https://github.com/user-attachments/assets/812736fe-152b-43be-b89b-b4d6b22e0f61)
 blablablabla
