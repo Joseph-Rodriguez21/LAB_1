@@ -32,11 +32,24 @@ def estadisticos_numpy(senal):
     return media, desviacion, coef_variacion
 
 def graficar_histograma(senal):
-    plt.hist(senal, bins=30, density=True, alpha=0.7, color='brown')
-    plt.title("Histograma de la Señal")
+    plt.figure(figsize=(10, 6))
+    
+    # Histograma normalizado
+    count, bins, _ = plt.hist(senal, bins='auto', density=True, alpha=0.7, color='brown', label='Histograma')
+    # Calcular media y desviación estándar de la señal
+    media, desviacion = np.mean(senal), np.std(senal)
+    # Estimar densidad con KDE (mejor ajuste en lugar de distribución normal)
+    kde = stats.gaussian_kde(senal)
+    x_vals = np.linspace(min(senal), max(senal), 1000)
+    pdf_kde = kde(x_vals)  # Densidad estimada
+    # Graficar la densidad estimada
+    plt.plot(x_vals, pdf_kde, 'r-', label='PDF Estimada (KDE)', linewidth=2)
+
+    plt.title("Histograma de la Señal con Función de Probabilidad")
     plt.xlabel("Amplitud")
-    plt.ylabel("Frecuencia")
+    plt.ylabel("Densidad de Probabilidad")
     plt.grid(True)
+    plt.legend()
     plt.show()
 
 def calcular_snr(senal, ruido):
