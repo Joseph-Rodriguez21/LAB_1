@@ -13,7 +13,7 @@ blablablablablabla
 
 
 ![image](https://github.com/user-attachments/assets/db7da50a-777f-4bba-8adf-99808f6f25ae)
-![image](https://github.com/user-attachments/assets/42318341-6e23-49c5-989e-3b8bed7a910c)
+![image](https://github.com/user-attachments/assets/fd143544-41c7-4997-a5bc-2cc71cafb474)
 ![image](https://github.com/user-attachments/assets/f4621f06-1587-4de0-b1eb-c4ee30340df7)
 ![image](https://github.com/user-attachments/assets/dab18c8b-66c0-4b67-9a35-9175a8c24ea8)
 ![image](https://github.com/user-attachments/assets/986c9b20-fd1a-46cf-b510-c37318d71ba8)
