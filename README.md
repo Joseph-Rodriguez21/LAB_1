@@ -17,7 +17,7 @@ blablablablablabla
 
 ![image](https://github.com/user-attachments/assets/e3aeca58-7603-401e-aa71-ebb33ecb4864)
 
-blablalblablablablablaSe ingresan los datos numéricos que representa la señal fisiológica, para calcular el valor promedio de la señal y su 'desviación estándar' en la cual se mide cuanto varían los datos respecto a la 'media' en donde valor alto indica que los datos están muy dispersos, mientras que un valor bajo indica que los datos están más agrupados cerca de la media para luego calcular el 'coeficiente de variación' que mide la variabilidad de la señal en relación con su medio para poder comparar y analizar estos tres valores
+Se ingresan los datos numéricos que representa la señal fisiológica, para calcular el valor promedio de la señal y su 'desviación estándar' en la cual se mide cuanto varían los datos respecto a la 'media' en donde valor alto indica que los datos están muy dispersos, mientras que un valor bajo indica que los datos están más agrupados cerca de la media para luego calcular el 'coeficiente de variación' que mide la variabilidad de la señal en relación con su medio para poder comparar y analizar estos tres valores
 ![image](https://github.com/user-attachments/assets/94dded00-71dc-4035-b789-73eeb26d1b14)
 blablablablablablablablabla
 
