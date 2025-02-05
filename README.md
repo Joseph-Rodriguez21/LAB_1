@@ -7,6 +7,8 @@ Se añaden librerias con el fin de poder realizar de manera más sencilla cálcu
 
 blablablablablabla
 
+![image](https://github.com/user-attachments/assets/48347ca2-b573-47c0-b1fd-9dc1cf113237)
+
 
 
 
