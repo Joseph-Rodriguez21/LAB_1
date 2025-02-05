@@ -1,4 +1,9 @@
 
+                                                        INFORME LABORATORIO 1 ANALISIS DE SEÑALES 
+                                                                FELIPE TORRES 5600825
+                                                                YADER ORTIZ   5600782
+                                                                JOSEPH RODRIGUEZ 5600835
+
 ![image](https://github.com/user-attachments/assets/80df962c-52ca-496f-84d6-1f1db3b9e9f3)
 
 Se añaden librerias con el fin de poder realizar de manera más sencilla cálculos matemáticos, también para graficar señales, procesarlas y se utiliza una libreria aparte 'wfdb', la cual nos ayuda a leer los archivos de la señal fisiologica descargada previamente en physionet, por úlimo la libreria 'pandas' para manejar datos en formato tabla y guardarlos en archivo CSV.
