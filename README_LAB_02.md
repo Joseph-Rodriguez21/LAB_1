@@ -72,5 +72,8 @@ ________________________________________________________________________________
 Ahora definimos las señales establecidas en la guia de laboratorio, tales como "x1 = cos(2𝜋100𝑛𝑇𝑠)" y "x2 = sin(2𝜋100𝑛𝑇𝑠)", las cuales son señales que poseen una misma frecuencia de 100 Hz y estan evaluadas en los instantes 'n * Ts'
 
 Luego por medio de la función 'np.correlate(x1, x2, mode='full')' Se calcula la correlación cruzada entre x1 y x2. (definidos anteriormente) esta correlación nos ayuda a medir la similitud entre estas dos señales a diferentes desplazamientos. Y por medio de la función 'lag = np.arange(-len(x1) + 1, len(x1))' Se crea un vector que representa los desplazamientos posibles en la correlación. Esto es sencillo pues si encontramos algo similar en los desplazamientos de x1 y x2, entonces la correlación tendra un valor alto en ese punto, pero de lo contrario (como en este caso), estas dos señales estan desfasadas 90°, entonces la correlación mostrara este desfase.
+___________________________________________________________________________________________________________________________
+
+![image](https://github.com/user-attachments/assets/3209bd9b-e7a6-48e0-b021-27a4ff0c7b7d)
 
 
