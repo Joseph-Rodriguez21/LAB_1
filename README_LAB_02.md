@@ -18,3 +18,8 @@ Por otro lado se genera un arreglo 'y_nj' con valores desde 0 hasta 'len(y1)-1',
 
 Se genera un gráfico de stem plot (de tipo palos), el cual es el más ideal para representar las señales discretas presentes en la práctica. De igual manera agregamos ejes, titulos y una cuadricula para su mejor analisís.
 
+![image](https://github.com/user-attachments/assets/fe7c727b-4e84-4da9-afcd-f61013be1ee9)
+
+Ahora aplicamos lo explicado anteriormente con los demás datos de los integrantes del grupo, en este caso (Felipe Torres) y (Yader Ortiz) con sus datos respectivos, mismo concepto del uso de la función y misma forma para graficar, de tal manera obtenemos las siguientes gráficas y su convolución impresa en la consola:
+
+
