@@ -12,4 +12,9 @@ Para empezar a definir el codigo de este laboratorio, vamos a llamar estas libre
 ![image](https://github.com/user-attachments/assets/5695277b-239f-4baa-9879-96ae51555c8c)
 
 Ahora de acuerdo al ejercicio vamos a definir dos arreglos, en este caso 'j' y 'r' representando señales discretas respectivamente y en las cuales agregamos primero el código del primer estudiante (Joseph Rodriguez) (5600835) y su cédula en el otro arreglo (1076242362), el objetivo de esto es realizar la convolución entre estos dos arreglos mediando la función 'np.convolve(j, r)' el cual calcula la convolución discreta entre 'j' y 'r'.
-Por otro lado se genera un arreglo 'y_nj' con valores desde 0 hasta 'len(y1)-1', que representa el eje n para graficar. Y por último se imprime el resultado de esta convolución para que se refleje en la consola al ejecutar el código.
+Por otro lado se genera un arreglo 'y_nj' con valores desde 0 hasta 'len(y1)-1', que representa el eje n para graficar. Y por último se imprime el resultado de esta convolución 'y1' para que se refleje en la consola al ejecutar el código.
+
+![image](https://github.com/user-attachments/assets/e16c8f89-7a2a-40b5-982a-8c7599fd0132)
+
+Se genera un gráfico de stem plot (de tipo palos), el cual es el más ideal para representar las señales discretas presentes en la práctica. De igual manera agregamos ejes, titulos y una cuadricula para su mejor analisís.
+
