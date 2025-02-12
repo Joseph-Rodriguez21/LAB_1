@@ -93,3 +93,110 @@ plt.grid()
 # Mostrar la figura
 plt.tight_layout()
 plt.show()
+
+# TERCERA PARTE LABORATORIO (C)
+
+import numpy as np
+import matplotlib.pyplot as plt
+import wfdb
+import scipy.stats as stats
+import scipy.signal as signal
+
+def descargar_senal_desde_archivo(datos):
+    record = wfdb.rdrecord(datos)
+    senal = record.p_signal[:, 0]  # Tomar el primer canal
+    fs = record.fs  # Frecuencia de muestreo
+    return senal, fs
+
+def caracterizar_senal(senal, fs):
+    media = np.mean(senal)
+    desviacion = np.std(senal)
+    mediana = np.median(senal)
+    duracion = len(senal) / fs
+    return media, desviacion, mediana, duracion
+
+def describir_clasificacion():
+    return "La señal es una señal electromiográfica (EMG), utilizada para medir la actividad eléctrica de los músculos."
+
+def aplicar_transformada_fourier(senal, fs):
+    
+    N = len(senal)
+    espectro = np.fft.fft(senal) / N  # Normalizar
+    freqs = np.fft.fftfreq(N, d=1/fs)
+    return freqs[:N//2], np.abs(espectro[:N//2])  # Solo valores positivos
+
+def graficar_senal(senal, fs, alpha=0.7, titulo="Señal Fisiológica", color="purple"):
+    tiempo = np.arange(len(senal)) / fs
+    plt.figure(figsize=(10, 4))
+    plt.plot(tiempo, senal, color=color, label=titulo)
+    plt.xlabel("Tiempo [s]")
+    plt.ylabel("Amplitud")
+    plt.title(titulo)
+    plt.grid(True)
+    plt.legend()
+    plt.show()
+
+def graficar_transformada(freqs, espectro):
+    plt.figure(figsize=(10, 4))
+    plt.plot(freqs, espectro, color='red', label='Espectro de Fourier')
+    plt.xlabel("Frecuencia [Hz]")
+    plt.ylabel("Magnitud")
+    plt.yscale("log")  # Escala logarítmica para mejor visualización
+    plt.title("Transformada de Fourier de la Señal EMG")
+    plt.grid(True)
+    plt.legend()
+    plt.show()
+
+def graficar_densidad_espectral(senal, fs):
+    freqs, psd = signal.welch(senal, fs, nperseg=1024)
+    plt.figure(figsize=(10, 4))
+    plt.semilogy(freqs, psd, color='blue', label='Densidad Espectral de Potencia')
+    plt.xlabel("Frecuencia [Hz]")
+    plt.ylabel("Densidad de Potencia [V²/Hz]")
+    plt.title("Densidad Espectral de Potencia de la Señal EMG")
+    plt.grid(True)
+    plt.legend()
+    plt.show()
+    return freqs, psd
+
+def graficar_histograma(senal):
+    plt.figure(figsize=(10, 6))
+    
+    count, bins, _ = plt.hist(senal, bins='auto', density=True, alpha=0.7, color='brown', label='Histograma')
+
+    # Calcular media y desviación estándar de la señal
+    media, desviacion = np.mean(senal), np.std(senal)
+
+    # Estimar densidad con KDE
+    kde = stats.gaussian_kde(senal)
+    x_vals = np.linspace(min(senal), max(senal), 1000)
+    pdf_kde = kde(x_vals)  # Densidad estimada
+
+    # Graficar la densidad estimada
+    plt.plot(x_vals, pdf_kde, 'r-', label='PDF Estimada (KDE)', linewidth=2)
+
+
+    plt.title("Histograma de la Señal con Función de Probabilidad")
+    plt.xlabel("Amplitud")
+    plt.ylabel("Densidad de Probabilidad")
+    plt.grid(True)
+    plt.legend()
+    plt.show()
+
+# Código principal
+nombre_base = "session1_participant1_gesture10_trial1"
+senal, fs = descargar_senal_desde_archivo(nombre_base)
+
+graficar_senal(senal, fs)
+
+media, desviacion, mediana, duracion = caracterizar_senal(senal, fs)
+print(f"Media: {media}")
+print(f"Desviación estándar: {desviacion}")
+print(f"Mediana: {mediana}")
+print(f"Duración de la señal: {duracion} segundos")
+print(describir_clasificacion())
+
+freqs, espectro = aplicar_transformada_fourier(senal, fs)
+graficar_transformada(freqs, espectro)
+graficar_densidad_espectral(senal, fs)  # Se agrega la gráfica de densidad espectral
+graficar_histograma(senal)
