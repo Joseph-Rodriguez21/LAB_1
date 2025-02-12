@@ -59,8 +59,8 @@ ________________________________________________________________________________
 
 Yader Ortiz 
 
-![image](https://github.com/user-attachments/assets/74b0cf45-0490-43de-bbfc-80dfa7b35ec3)
-![image](https://github.com/user-attachments/assets/846ef260-7c7b-4544-8259-cd8aa8867ae1)
+![Imagen de WhatsApp 2025-02-11 a las 21 27 00_60fc6128](https://github.com/user-attachments/assets/33098a0a-db66-4da6-a60e-2a2cc8f86be2)
+![Imagen de WhatsApp 2025-02-11 a las 21 27 09_3c3c1ca7](https://github.com/user-attachments/assets/3d4ee2a7-5fb6-48e0-a84b-b119e329405f)
 ___________________________________________________________________________________________________________________________
 
 ___________________________________________________________________________________________________________________________
