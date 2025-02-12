@@ -54,6 +54,8 @@ ________________________________________________________________________________
 Joseph Rodriguez 
 
 ![Imagen de WhatsApp 2025-02-11 a las 20 47 23_66dc3fff](https://github.com/user-attachments/assets/51b9521e-2943-4889-a0a0-47826662b21b)
+![Imagen de WhatsApp 2025-02-11 a las 21 02 49_dd65efd8](https://github.com/user-attachments/assets/8bf23f20-e8e8-473d-a794-0744e6f35d6a)
+___________________________________________________________________________________________________________________________
 
 
 
