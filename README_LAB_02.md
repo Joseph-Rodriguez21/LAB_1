@@ -154,6 +154,8 @@ ________________________________________________________________________________
 
 ![image](https://github.com/user-attachments/assets/40e897fb-f81a-4eb9-a4a4-95d0987ae737)
 
+Este código es el programa principal que integra las funciones previamente definidas para el análisis de una señal biomédica donde se almacena el archivo a utilizar de la señal para poder analizarlo mostrando Media (promedio de la señal), Desviación estándar (variabilidad), Mediana (valor central de la distribución) y Duración de la señal (en segundos) donde también se analiza la señal y da una clasificación (ejemplo: tipo de movimiento, patrón fisiológico, etc), para luego aplicar la Transformada Rápida de Fourier (FFT) con su grafica y su Densidad Espectral de Potencia que representa la distribución de energía de la señal en el dominio de la frecuencia, mostrando la distribución de amplitudes y una estimación de la densidad de probabilidad (KDE)
+
 ___________________________________________________________________________________________________________________________
 
 
