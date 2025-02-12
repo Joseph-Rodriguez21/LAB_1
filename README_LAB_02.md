@@ -126,5 +126,7 @@ ________________________________________________________________________________
 ![image](https://github.com/user-attachments/assets/b4df0bbb-2ccb-4c43-a489-2cb515eadd48)
 
 ___________________________________________________________________________________________________________________________
+![image](https://github.com/user-attachments/assets/65f48595-441e-4e57-9e9d-b0629bb9105b)
+Calcula la Transformada Rápida de Fourier (FFT) de la señal para analizar su contenido en el dominio de la frecuencia donde N representa el número total de puntos en la señal luego se divide por N para normalizar los valores y evitar escalamiento en la magnitud generando el eje de frecuencias en función del número de muestras y la frecuencia de muestreo, además se toman los valores positivos ya que los negativos no aportan información nueva 
 ___________________________________________________________________________________________________________________________
 ___________________________________________________________________________________________________________________________
