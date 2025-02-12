@@ -63,7 +63,7 @@ ________________________________________________________________________________
                                                                            
 ![image](https://github.com/user-attachments/assets/8e3f2a6b-0170-41cc-a86b-4dd8ccef8073)
 
-Ahora para el desaarrolo de esta segunda de la práctica vamos a definir el periodo de muestreo 'Ts=1,25 ms' el cual ya esta previaente establecido en la guia de laboratorio, luego por medio de 'n = np.arange(9)' se crea un vector de tiempo discreto con valores de 0 a 8, representando los instantes en los que se evalúan las señales, de igual manera ya previamente establecido en la guia de laboratorio como "𝑝𝑎𝑟𝑎 0 ≤ 𝑛 < 9".
+Ahora para el desarrollo de esta segunda de la práctica vamos a definir el periodo de muestreo 'Ts=1,25 ms' el cual ya esta previamente establecido en la guia de laboratorio, luego por medio de 'n = np.arange(9)' se crea un vector de tiempo discreto con valores de 0 a 8, representando los instantes en los que se evalúan las señales, de igual manera ya previamente establecido en la guia de laboratorio como "𝑝𝑎𝑟𝑎 0 ≤ 𝑛 < 9".
 
 ___________________________________________________________________________________________________________________________
 
@@ -76,4 +76,14 @@ ________________________________________________________________________________
 
 ![image](https://github.com/user-attachments/assets/3209bd9b-e7a6-48e0-b021-27a4ff0c7b7d)
 
+Ahora creamos una figura para incluir las tres gráficas, siendo estas la de las señales por separado y la última su correlacióm. 
+Allí utilizamos 'stem()' para graficar la señal como una secuencia discreta de puntos, tambien se cambia el color de sus puntos y lineas corrientes, por último ejes y una cuadricula, esto en ambas gráficas.
 
+___________________________________________________________________________________________________________________________
+
+![image](https://github.com/user-attachments/assets/2fda55b1-ba33-40f0-a523-bbebcc4cfa36)
+
+Acá añadimos el tercer subgráfico para representar y reflejar la correlación de las dos señales previas. Se llama a 'lag' el cuañ ya definimos anteriormente como aquel que representa el desplazamiento de una señal con la otra, al igual que con 'correlation' que muestra la similitud entre ambas señales y su desplazamiento. Ya por último declaramos los ejes, titulos y se muestra la figuro con estos tres subgraficos, de la siguiente manera:
+![image](https://github.com/user-attachments/assets/3c3db6b0-73bd-43fe-a290-1a1eb4e97829)
+
+___________________________________________________________________________________________________________________________
