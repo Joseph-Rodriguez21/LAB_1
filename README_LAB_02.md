@@ -148,6 +148,8 @@ ________________________________________________________________________________
 
 ![image](https://github.com/user-attachments/assets/80400c62-c1cc-49ea-92a6-b5f46c4ca4c6)
 
+Con esta función se visualiza la distribución de amplitudes de la señal mediante un histograma normalizado para que represente una distribución de probabilidad en lugar de contar muestras calculando el valor promedio de la señal y calculando la dispersión de los valores con la desviación estándar y una estimación de densidad de probabilidad (KDE)  para generar una curva suavizada de la distribución de los valores 
+
 ___________________________________________________________________________________________________________________________
 
 ![image](https://github.com/user-attachments/assets/40e897fb-f81a-4eb9-a4a4-95d0987ae737)
