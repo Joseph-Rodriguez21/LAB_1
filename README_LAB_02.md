@@ -48,7 +48,7 @@ Resultado datos convolución reflejados en la consola de py.
 
 ___________________________________________________________________________________________________________________________
 
-Ahora comparamos con las convoluciones realizadas manualmente, en este orden de ideas obtenemos la siguiente tabla por cada estudiando y su respectiva gráfica hecha a mano:
+Ahora comparamos con las convoluciones realizadas manualmente, en este orden de ideas obtenemos la siguiente tabla por cada estudiante y su respectiva gráfica hecha a mano:
 
 
 
