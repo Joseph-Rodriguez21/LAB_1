@@ -49,10 +49,11 @@ Resultado datos convolución reflejados en la consola de py.
 ___________________________________________________________________________________________________________________________
 
 Ahora comparamos con las convoluciones realizadas manualmente, en este orden de ideas obtenemos la siguiente tabla por cada estudiante y su respectiva gráfica hecha a mano:
+___________________________________________________________________________________________________________________________
 
+Joseph Rodriguez 
 
-
-
+![Imagen de WhatsApp 2025-02-11 a las 20 47 23_66dc3fff](https://github.com/user-attachments/assets/51b9521e-2943-4889-a0a0-47826662b21b)
 
 
 
