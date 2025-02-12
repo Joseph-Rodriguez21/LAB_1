@@ -1,4 +1,4 @@
-                                                    INFORME LABORATORIO 2 CONVOLUCIÓN Y CORRELACIÓN 
+![image](https://github.com/user-attachments/assets/6a97e966-f0a8-40c6-8f75-a19f6a094ac4)                                                    INFORME LABORATORIO 2 CONVOLUCIÓN Y CORRELACIÓN 
                                                              FELIPE TORRES 5600825
                                                              YADER ORTIZ   5600782
                                                              JOSEPH RODRIGUEZ 5600835
@@ -156,7 +156,13 @@ ________________________________________________________________________________
 
 Este código es el programa principal que integra las funciones previamente definidas para el análisis de una señal biomédica donde se almacena el archivo a utilizar de la señal para poder analizarlo mostrando Media (promedio de la señal), Desviación estándar (variabilidad), Mediana (valor central de la distribución) y Duración de la señal (en segundos) donde también se analiza la señal y da una clasificación (ejemplo: tipo de movimiento, patrón fisiológico, etc), para luego aplicar la Transformada Rápida de Fourier (FFT) con su grafica y su Densidad Espectral de Potencia que representa la distribución de energía de la señal en el dominio de la frecuencia, mostrando la distribución de amplitudes y una estimación de la densidad de probabilidad (KDE)
 
+Dando como resultado las siguientes gráficas correspondientes para cada punto:
 ___________________________________________________________________________________________________________________________
 
+![image](https://github.com/user-attachments/assets/1257ef1b-ca6f-4165-85ce-05b618224eac)
 
+![image](https://github.com/user-attachments/assets/6bf8d1ef-857b-43da-ae66-d9686742e2bf)
 
+![image](https://github.com/user-attachments/assets/2000c312-44ba-45dc-9ba4-007d3d17d9eb)
+
+![image](https://github.com/user-attachments/assets/ebd6fc4e-5ca9-4ec3-80e8-c92434a56a63)
