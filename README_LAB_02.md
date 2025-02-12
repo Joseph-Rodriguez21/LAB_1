@@ -84,6 +84,9 @@ ________________________________________________________________________________
 ![image](https://github.com/user-attachments/assets/2fda55b1-ba33-40f0-a523-bbebcc4cfa36)
 
 Acá añadimos el tercer subgráfico para representar y reflejar la correlación de las dos señales previas. Se llama a 'lag' el cuañ ya definimos anteriormente como aquel que representa el desplazamiento de una señal con la otra, al igual que con 'correlation' que muestra la similitud entre ambas señales y su desplazamiento. Ya por último declaramos los ejes, titulos y se muestra la figuro con estos tres subgraficos, de la siguiente manera:
+
 ![image](https://github.com/user-attachments/assets/3c3db6b0-73bd-43fe-a290-1a1eb4e97829)
 
 ___________________________________________________________________________________________________________________________
+
+                                     TERCERA PARTE (C)
