@@ -138,7 +138,7 @@ ________________________________________________________________________________
 
 ![image](https://github.com/user-attachments/assets/f92408d9-edad-48a0-8f8e-7528fabe02a0)
 
-
+Esta función toma los resultados de la transformada Fourier (np.fft.fft) permitiendo visualizar cómo se distribuyen las diferentes frecuencias dentro de la señal (EMG) graficada de la magnitud en función de la frecuencia. A esta señal se le configura el tamaño, el color y se le agregan títulos para el eje X y Y.
 ___________________________________________________________________________________________________________________________
 
 ![image](https://github.com/user-attachments/assets/3bdb40b1-2579-47ae-a75e-9c36c36f6233)
