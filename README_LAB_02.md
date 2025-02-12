@@ -145,3 +145,14 @@ ________________________________________________________________________________
 
 Esta función permite calcular y graficar la Densidad Espectral de Potencia (PSD) de la señal utilizando el método de Welch para estimar la PSD, lo que suaviza la curva y mejora la estimación en comparación con la FFT simple para luego agregarle algunas etiquetas y aspectos como el color, titulo del eje X y Y 
 ___________________________________________________________________________________________________________________________
+
+![image](https://github.com/user-attachments/assets/80400c62-c1cc-49ea-92a6-b5f46c4ca4c6)
+
+___________________________________________________________________________________________________________________________
+
+![image](https://github.com/user-attachments/assets/40e897fb-f81a-4eb9-a4a4-95d0987ae737)
+
+___________________________________________________________________________________________________________________________
+
+
+
