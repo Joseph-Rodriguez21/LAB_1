@@ -135,3 +135,6 @@ ________________________________________________________________________________
 
 Esta función se encarga de representar gráficamente la señal en función del tiempo en donde se obtiene el numero total de las muestras y se obtiene el tiempo en (s) para cada muestra, configurando el tamaño de la grafica y agregándole etiquetas como color y nombre del eje X y Y
 ___________________________________________________________________________________________________________________________
+
+![image](https://github.com/user-attachments/assets/f92408d9-edad-48a0-8f8e-7528fabe02a0)
+
