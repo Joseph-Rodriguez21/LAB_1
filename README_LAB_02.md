@@ -113,6 +113,12 @@ ________________________________________________________________________________
 
 ![image](https://github.com/user-attachments/assets/b8b69978-70ba-4e6c-af25-7ee37d919825)
 
+Esta función calcula y devuelve los resultados de la señal que son 
+Media que es el (valor promedio de la señal)
+Desviación estándar muestra (qué tanto varían los valores)
+Mediana (valor central de la señal)
+Duración de la señal en segundos y su frecuencia de muestreo.
+
 Los datos de la señal fisiológica provienen de una base de datos de EMG. Para acceder a ellos, se utiliza la función wfdb.rdrecord(datos), que abre el archivo cuyo nombre se proporciona como argumento (datos) y devuelve un objeto denominado record. Dentro de este objeto, record.p_signal almacena los valores de la señal, y al seleccionar [:, 0], se extrae únicamente el primer canal de la misma. Además, record.fs contiene la frecuencia de muestreo, que indica cuántas muestras por segundo se han tomado. Como resultado, la función devuelve la señal (senal) y su frecuencia de muestreo (fs), proporcionando información necesaria para su procesamiento.
 ___________________________________________________________________________________________________________________________
 ___________________________________________________________________________________________________________________________
