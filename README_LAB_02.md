@@ -93,3 +93,13 @@ Acá añadimos el tercer subgráfico para representar y reflejar la correlación
 ___________________________________________________________________________________________________________________________
 
                                      TERCERA PARTE (C)
+                                     
+![image](https://github.com/user-attachments/assets/836aa702-8cc1-45e4-a647-10bbe5f00892)
+
+Para desarrollar el punto C, se incorporan diversas librerías usadas anteriormente en el laboratorio 1, ya que facilitan los cálculos matemáticos, la visualización y el procesamiento de señales. Además, se emplea la librería 'wfdb', que permite leer los archivos de la señal fisiológica previamente descargada desde PhysioNet.
+
+___________________________________________________________________________________________________________________________
+
+![image](https://github.com/user-attachments/assets/ce75fe83-2a0b-4707-99f2-491367ef0149)
+
+
