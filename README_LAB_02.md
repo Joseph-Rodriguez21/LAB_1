@@ -62,6 +62,10 @@ Yader Ortiz
 ![Imagen de WhatsApp 2025-02-11 a las 21 27 00_60fc6128](https://github.com/user-attachments/assets/33098a0a-db66-4da6-a60e-2a2cc8f86be2)
 ![Imagen de WhatsApp 2025-02-11 a las 21 27 09_3c3c1ca7](https://github.com/user-attachments/assets/3d4ee2a7-5fb6-48e0-a84b-b119e329405f)
 ___________________________________________________________________________________________________________________________
+Felipe Torres 
+
+![image](https://github.com/user-attachments/assets/d870b71e-2c4c-44ea-8624-2bbea483c921)
+![image](https://github.com/user-attachments/assets/12b210db-683f-4e3e-a36b-6aeadb66eff0)
 
 ___________________________________________________________________________________________________________________________
 
