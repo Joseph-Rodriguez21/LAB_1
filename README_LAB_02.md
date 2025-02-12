@@ -3,7 +3,7 @@
                                                              YADER ORTIZ   5600782
                                                              JOSEPH RODRIGUEZ 5600835
 
-PUNTO A Y B
+                 PRIMERA PARTE (A)
 ___________________________________________________________________________________________________________________________
 
 ![image](https://github.com/user-attachments/assets/f3c8b298-402a-4acb-800c-add117427036)
